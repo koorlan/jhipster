@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "jhipster",
+    "packageName": "com.korlan.jhipster",
+    "packageFolder": "com/korlan/jhipster",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "react",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.7.2",
+    "jwtSecretKey": "YjVhM2I2NjhjZTc2NmY2OWJkNjA2ZDEzZDBkYTg2YjZhMDc4MTFiZWY0MzdmMWI0ZDI4ZWEzNzlmYWVmODQ3NTgwOTRiOGM3NDA4YjBiYTFjMzA1MWFjN2ZlZjY0YjI1MzYyYzE0NDAyNDVlZWQyNTZmYjdlOWI4NGFmOWZiODQ=",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "koorlan",
+  "repository-name": "jhipster"
+}
